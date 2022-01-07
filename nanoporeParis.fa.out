@@ -1,0 +1,135 @@
+   SW   perc perc perc  query                                 position in query     matching    repeat          position in repeat
+score   div. del. ins.  sequence                              begin end    (left)   repeat      class/family  begin  end    (left)  ID
+
+   21   23.2  0.0  0.0  3bf4f7ca-c0d0-4045-94fe-d2de492dad1d    126   171 (10672) + (CA)n       Simple_repeat      1     46    (0)   1  
+   20   24.9  1.7  0.0  3bf4f7ca-c0d0-4045-94fe-d2de492dad1d    498   555 (10288) + (TGAC)n     Simple_repeat      1     59    (0)   2  
+   15   20.5  0.0  2.5  3bf4f7ca-c0d0-4045-94fe-d2de492dad1d   1281  1321  (9522) + (ACAA)n     Simple_repeat      1     40    (0)   3  
+12863    2.7  3.2  2.5  3bf4f7ca-c0d0-4045-94fe-d2de492dad1d   2732  4449  (6394) + Paris       Unspecified        1   1730    (0)   4  
+   22    0.0  0.0  0.0  3bf4f7ca-c0d0-4045-94fe-d2de492dad1d   4450  4473  (6370) + (TA)n       Simple_repeat      1     24    (0)   5  
+   15   17.4  2.9  2.9  3bf4f7ca-c0d0-4045-94fe-d2de492dad1d   9272  9306  (1537) + (AT)n       Simple_repeat      1     35    (0)   6  
+   33    5.7  0.0  0.0  3bf4f7ca-c0d0-4045-94fe-d2de492dad1d  10075 10111   (732) + (AC)n       Simple_repeat      1     37    (0)   7  
+   12   20.1  0.0  5.4  697bdce2-25f3-4cfe-a026-401cf7d8847b     46    84 (24899) + (ACAT)n     Simple_repeat      1     37    (0)   8  
+   15   34.7  0.0  3.7  697bdce2-25f3-4cfe-a026-401cf7d8847b    360   444 (24539) + (CATA)n     Simple_repeat      1     82    (0)   9 *
+   18    4.3  0.0  4.0  697bdce2-25f3-4cfe-a026-401cf7d8847b    367   392 (24591) + (AC)n       Simple_repeat      1     25    (0)  10  
+   27   20.2  0.0  0.0  697bdce2-25f3-4cfe-a026-401cf7d8847b    524   580 (24403) + (TTG)n      Simple_repeat      1     57    (0)  11  
+   36    2.9  0.0  0.0  697bdce2-25f3-4cfe-a026-401cf7d8847b    884   918 (24065) + (TC)n       Simple_repeat      1     35    (0)  12  
+   18    4.8  0.0  0.0  697bdce2-25f3-4cfe-a026-401cf7d8847b   8219  8240 (16743) + (GT)n       Simple_repeat      1     22    (0)  13  
+   15   28.8  2.1  0.0  697bdce2-25f3-4cfe-a026-401cf7d8847b   9492  9538 (15445) + (GT)n       Simple_repeat      1     48    (0)  14  
+   20   28.1  0.0  0.0  697bdce2-25f3-4cfe-a026-401cf7d8847b   9626  9677 (15306) + (AC)n       Simple_repeat      1     52    (0)  15  
+   18   19.4  0.0  0.0  697bdce2-25f3-4cfe-a026-401cf7d8847b  10227 10267 (14716) + (ACAC)n     Simple_repeat      1     41    (0)  16  
+   22   31.9  1.9  3.8  697bdce2-25f3-4cfe-a026-401cf7d8847b  10412 10519 (14464) + (TA)n       Simple_repeat      1    106    (0)  17  
+   22   16.6  4.3  0.0  697bdce2-25f3-4cfe-a026-401cf7d8847b  10647 10693 (14290) + (TA)n       Simple_repeat      1     49    (0)  18  
+   19   21.0  1.9  3.9  697bdce2-25f3-4cfe-a026-401cf7d8847b  10752 10804 (14179) + (TA)n       Simple_repeat      1     52    (0)  19  
+   12   13.7  6.2  0.0  697bdce2-25f3-4cfe-a026-401cf7d8847b  11659 11690 (13293) + (CCAACT)n   Simple_repeat      1     34    (0)  20  
+   18   17.7  2.6  0.0  697bdce2-25f3-4cfe-a026-401cf7d8847b  11823 11860 (13123) + (AC)n       Simple_repeat      1     39    (0)  21  
+   17   22.5  0.0  4.1  697bdce2-25f3-4cfe-a026-401cf7d8847b  12304 12354 (12629) + (AAC)n      Simple_repeat      1     49    (0)  22  
+   19   11.1  0.0  0.0  697bdce2-25f3-4cfe-a026-401cf7d8847b  12359 12387 (12596) + (TG)n       Simple_repeat      1     29    (0)  23  
+   27   19.4  0.0  4.5  697bdce2-25f3-4cfe-a026-401cf7d8847b  12441 12510 (12473) + (GGA)n      Simple_repeat      1     67    (0)  24  
+12556    3.4  2.5  2.8  697bdce2-25f3-4cfe-a026-401cf7d8847b  12683 14418 (10565) + Paris       Unspecified        1   1730    (0)  25  
+   16   15.5  2.8  0.0  697bdce2-25f3-4cfe-a026-401cf7d8847b  14475 14510 (10473) + (GTTAC)n    Simple_repeat      1     37    (0)  26  
+   13   18.6  2.6  2.6  697bdce2-25f3-4cfe-a026-401cf7d8847b  14820 14858 (10125) + (TTTCCG)n   Simple_repeat      1     39    (0)  27 *
+   19   20.0  0.0  8.1  697bdce2-25f3-4cfe-a026-401cf7d8847b  14852 14918 (10065) + (TTTG)n     Simple_repeat      1     62    (0)  28  
+   29    3.2  0.0  0.0  697bdce2-25f3-4cfe-a026-401cf7d8847b  14939 14970 (10013) + (TTG)n      Simple_repeat      1     32    (0)  29  
+   15   29.3  0.0  0.0  697bdce2-25f3-4cfe-a026-401cf7d8847b  15354 15395  (9588) + (GT)n       Simple_repeat      1     42    (0)  30  
+   23    6.7  0.0  3.0  697bdce2-25f3-4cfe-a026-401cf7d8847b  16109 16142  (8841) + (CA)n       Simple_repeat      1     33    (0)  31  
+   29    3.2  0.0  0.0  697bdce2-25f3-4cfe-a026-401cf7d8847b  16374 16405  (8578) + (TTTCG)n    Simple_repeat      1     32    (0)  32  
+   13   12.2  3.7  0.0  697bdce2-25f3-4cfe-a026-401cf7d8847b  16435 16461  (8522) + (TGT)n      Simple_repeat      1     28    (0)  33  
+   19   19.7  0.0 10.0  697bdce2-25f3-4cfe-a026-401cf7d8847b  16475 16551  (8432) + (TTAAAAA)n  Simple_repeat      1     70    (0)  34  
+   18   11.8  2.6  2.6  697bdce2-25f3-4cfe-a026-401cf7d8847b  16511 16549  (8434) + (AAAAT)n    Simple_repeat      1     39    (0)  35 *
+   21    4.0  0.0  0.0  697bdce2-25f3-4cfe-a026-401cf7d8847b  16717 16742  (8241) + (CT)n       Simple_repeat      1     26    (0)  36  
+   17   16.6  4.9  0.0  697bdce2-25f3-4cfe-a026-401cf7d8847b  16763 16803  (8180) + (TAC)n      Simple_repeat      1     43    (0)  37  
+   15   20.1  0.0  0.0  697bdce2-25f3-4cfe-a026-401cf7d8847b  17013 17046  (7937) + (TTA)n      Simple_repeat      1     34    (0)  38  
+   16   12.5  0.0  3.6  697bdce2-25f3-4cfe-a026-401cf7d8847b  17084 17112  (7871) + (AT)n       Simple_repeat      1     28    (0)  39  
+   15    5.6  0.0  0.0  697bdce2-25f3-4cfe-a026-401cf7d8847b  17233 17251  (7732) + (AT)n       Simple_repeat      1     19    (0)  40  
+   17   22.6  0.0  0.0  697bdce2-25f3-4cfe-a026-401cf7d8847b  19318 19353  (5630) + (A)n        Simple_repeat      1     36    (0)  41  
+   47   16.4  0.0  3.1  697bdce2-25f3-4cfe-a026-401cf7d8847b  19454 19554  (5429) + (TCTGTA)n   Simple_repeat      1     98    (0)  42  
+   16   13.2  0.0  2.9  697bdce2-25f3-4cfe-a026-401cf7d8847b  19641 19675  (5308) + (AAATTC)n   Simple_repeat      1     34    (0)  43  
+   38    4.9  0.0  0.0  697bdce2-25f3-4cfe-a026-401cf7d8847b  21335 21376  (3607) + (AT)n       Simple_repeat      1     42    (0)  44  
+   14   14.8  5.1  2.5  697bdce2-25f3-4cfe-a026-401cf7d8847b  21983 22021  (2962) + (CAG)n      Simple_repeat      1     40    (0)  45  
+   16   18.3  3.8  3.8  697bdce2-25f3-4cfe-a026-401cf7d8847b  22378 22430  (2553) + (GAGCAG)n   Simple_repeat      1     53    (0)  46  
+   16   12.4  0.0 10.0  697bdce2-25f3-4cfe-a026-401cf7d8847b  22847 22890  (2093) + (CAG)n      Simple_repeat      1     40    (0)  47  
+   20   13.9  0.0  9.6  ac89beb9-3be5-429f-9d93-02874b226f52    812   868  (5010) + (TTG)n      Simple_repeat      1     52    (0)  48  
+   24   17.6  4.0  4.0  ac89beb9-3be5-429f-9d93-02874b226f52   1095  1170  (4708) + (TAATTTT)n  Simple_repeat      1     76    (0)  49  
+   15   13.7  0.0  3.0  ac89beb9-3be5-429f-9d93-02874b226f52   1212  1245  (4633) + (CCATT)n    Simple_repeat      1     33    (0)  50  
+   19    9.7  0.0  2.9  ac89beb9-3be5-429f-9d93-02874b226f52   2217  2251  (3627) + (TTC)n      Simple_repeat      1     34    (0)  51  
+   13   21.4  2.6  0.0  ac89beb9-3be5-429f-9d93-02874b226f52   2636  2673  (3205) + (AGTGTG)n   Simple_repeat      1     39    (0)  52 *
+   18   10.7  3.3  0.0  ac89beb9-3be5-429f-9d93-02874b226f52   2639  2668  (3210) + (GT)n       Simple_repeat      1     31    (0)  53  
+10255    5.7  4.5  5.6  ac89beb9-3be5-429f-9d93-02874b226f52   2909  4652  (1226) + Paris       Unspecified        1   1727    (3)  54  
+   13   13.7  2.9  2.9  ac89beb9-3be5-429f-9d93-02874b226f52   4689  4722  (1156) + (AACAA)n    Simple_repeat      1     34    (0)  55  
+   21   10.0  0.0  0.0  ac89beb9-3be5-429f-9d93-02874b226f52   5042  5074   (804) + (TGT)n      Simple_repeat      1     33    (0)  56  
+   21   19.8  0.0  0.0  ac89beb9-3be5-429f-9d93-02874b226f52   5425  5470   (408) + (CACA)n     Simple_repeat      1     46    (0)  57  
+   12    8.5  0.0  7.4  ac89beb9-3be5-429f-9d93-02874b226f52   5585  5613   (265) + (AATGA)n    Simple_repeat      1     27    (0)  58 *
+   17    5.9  2.4  7.7  ac89beb9-3be5-429f-9d93-02874b226f52   5590  5630   (248) + (AATGAA)n   Simple_repeat      1     39    (0)  59  
+   16   21.8  0.0  0.0  af80af6b-c64b-445d-86ab-dea323eba6d5    270   307 (18738) + (TGCG)n     Simple_repeat      1     38    (0)  60 *
+   19   19.2  0.0  0.0  af80af6b-c64b-445d-86ab-dea323eba6d5    274   309 (18736) + (TG)n       Simple_repeat      1     36    (0)  61  
+   27    0.0  0.0  3.5  af80af6b-c64b-445d-86ab-dea323eba6d5    755   784 (18261) + (ACAT)n     Simple_repeat      1     29    (0)  62  
+12252    2.7  3.1  3.8  af80af6b-c64b-445d-86ab-dea323eba6d5   1054  2794 (16251) + Paris       Unspecified        1   1730    (0)  63  
+   17   29.7  0.0  0.0  af80af6b-c64b-445d-86ab-dea323eba6d5   2936  2984 (16061) + (TT)n       Simple_repeat      1     49    (0)  64  
+   18    7.7  0.0  0.0  af80af6b-c64b-445d-86ab-dea323eba6d5   3082  3109 (15936) + (CATA)n     Simple_repeat      1     28    (0)  65  
+   17   11.6  0.0  0.0  af80af6b-c64b-445d-86ab-dea323eba6d5   3343  3371 (15674) + (ACAT)n     Simple_repeat      1     29    (0)  66  
+   28    0.0  0.0  0.0  af80af6b-c64b-445d-86ab-dea323eba6d5   3526  3552 (15493) + (CATG)n     Simple_repeat      1     27    (0)  67  
+   13   26.7  0.0  5.7  af80af6b-c64b-445d-86ab-dea323eba6d5   3959  4014 (15031) + (CACG)n     Simple_repeat      1     53    (0)  68  
+   17   18.2  0.0  4.4  af80af6b-c64b-445d-86ab-dea323eba6d5   4098  4144 (14901) + (TTTTATT)n  Simple_repeat      1     45    (0)  69  
+   23   10.8  0.0  4.7  af80af6b-c64b-445d-86ab-dea323eba6d5   4165  4209 (14836) + (GTT)n      Simple_repeat      1     43    (0)  70  
+   18   24.1  3.5  4.8  af80af6b-c64b-445d-86ab-dea323eba6d5   4371  4455 (14590) + (GTCT)n     Simple_repeat      1     84    (0)  71  
+   33   17.9  1.3  2.6  af80af6b-c64b-445d-86ab-dea323eba6d5   4605  4683 (14362) + (CGAC)n     Simple_repeat      1     78    (0)  72  
+   15    4.8  0.0  0.0  af80af6b-c64b-445d-86ab-dea323eba6d5   4940  4961 (14084) + (GTAT)n     Simple_repeat      1     22    (0)  73  
+   20   21.4  4.0  0.0  af80af6b-c64b-445d-86ab-dea323eba6d5   5096  5145 (13900) + (AT)n       Simple_repeat      1     52    (0)  74  
+   19   10.8  0.0  3.2  af80af6b-c64b-445d-86ab-dea323eba6d5   5293  5324 (13721) + (TG)n       Simple_repeat      1     31    (0)  75  
+   18   17.8  2.6  0.0  af80af6b-c64b-445d-86ab-dea323eba6d5   5820  5857 (13188) + (TC)n       Simple_repeat      1     39    (0)  76  
+   19   12.9  0.0  2.8  af80af6b-c64b-445d-86ab-dea323eba6d5   6233  6269 (12776) + (GCA)n      Simple_repeat      1     36    (0)  77  
+   16   20.4  0.0  2.9  af80af6b-c64b-445d-86ab-dea323eba6d5   6407  6442 (12603) + (TG)n       Simple_repeat      1     35    (0)  78  
+   17   18.9  2.8  0.0  af80af6b-c64b-445d-86ab-dea323eba6d5   6580  6615 (12430) + (CA)n       Simple_repeat      1     37    (0)  79  
+   16   14.2  0.0  0.0  af80af6b-c64b-445d-86ab-dea323eba6d5   6616  6646 (12399) + (GTAT)n     Simple_repeat      1     31    (0)  80  
+   14   19.5  0.0  2.8  af80af6b-c64b-445d-86ab-dea323eba6d5   6865  6901 (12144) + (TTG)n      Simple_repeat      1     36    (0)  81  
+   26    5.4  0.0  4.9  af80af6b-c64b-445d-86ab-dea323eba6d5   6927  6969 (12076) + (GTGTGC)n   Simple_repeat      1     41    (0)  82  
+   17   17.4  2.5  0.0  af80af6b-c64b-445d-86ab-dea323eba6d5   7151  7190 (11855) + (CGACGT)n   Simple_repeat      1     41    (0)  83  
+   16   12.1  0.0  0.0  af80af6b-c64b-445d-86ab-dea323eba6d5   7283  7310 (11735) + (CACA)n     Simple_repeat      1     28    (0)  84  
+   12   27.1  0.0  2.6  af80af6b-c64b-445d-86ab-dea323eba6d5   7310  7349 (11696) + (ATGT)n     Simple_repeat      1     39    (0)  85 *
+   25   18.4  4.2  2.7  af80af6b-c64b-445d-86ab-dea323eba6d5   7639  7710 (11335) + (CAA)n      Simple_repeat      1     73    (0)  86  
+   16   15.2  4.2  4.2  af80af6b-c64b-445d-86ab-dea323eba6d5   8199  8246 (10799) + (TAAGAA)n   Simple_repeat      1     48    (0)  87  
+   13   18.4  0.0  3.1  af80af6b-c64b-445d-86ab-dea323eba6d5   8202  8234 (10811) + (AAG)n      Simple_repeat      1     32    (0)  88 *
+   21   13.2  2.2  2.2  af80af6b-c64b-445d-86ab-dea323eba6d5   8296  8340 (10705) + (CATG)n     Simple_repeat      1     45    (0)  89  
+   13    9.8  9.1  0.0  af80af6b-c64b-445d-86ab-dea323eba6d5   8508  8540 (10505) + (ACGTAAT)n  Simple_repeat      1     36    (0)  90  
+   18   21.4  6.9  1.3  af80af6b-c64b-445d-86ab-dea323eba6d5   8664  8735 (10310) + (TATATGC)n  Simple_repeat      1     76    (0)  91  
+   15    4.8  0.0  0.0  af80af6b-c64b-445d-86ab-dea323eba6d5   8970  8991 (10054) + (TATG)n     Simple_repeat      1     22    (0)  92  
+   15   27.2  0.0  7.1  af80af6b-c64b-445d-86ab-dea323eba6d5   9192  9266  (9779) + (TCTTCT)n   Simple_repeat      1     70    (0)  93 *
+   24    2.8  2.4  7.5  af80af6b-c64b-445d-86ab-dea323eba6d5   9224  9265  (9780) + (CT)n       Simple_repeat      1     40    (0)  94  
+   18   18.4  5.3  1.7  af80af6b-c64b-445d-86ab-dea323eba6d5   9515  9571  (9474) + (AAAAT)n    Simple_repeat      1     59    (0)  95  
+   16   19.6  0.0  0.0  af80af6b-c64b-445d-86ab-dea323eba6d5   9647  9681  (9364) + (AAC)n      Simple_repeat      1     35    (0)  96  
+   29    7.5  0.0  2.3  af80af6b-c64b-445d-86ab-dea323eba6d5  11090 11134  (7911) + (TGC)n      Simple_repeat      1     44    (0)  97  
+   22   21.4  0.0  5.1  af80af6b-c64b-445d-86ab-dea323eba6d5  11188 11249  (7796) + (TGT)n      Simple_repeat      1     59    (0)  98  
+   24   14.6  4.6  3.0  af80af6b-c64b-445d-86ab-dea323eba6d5  11324 11388  (7657) + (CCCTCG)n   Simple_repeat      1     66    (0)  99  
+   21   19.4  0.0  0.0  af80af6b-c64b-445d-86ab-dea323eba6d5  11822 11868  (7177) + (GTTCCG)n   Simple_repeat      1     47    (0) 100  
+   18   21.6  1.9  3.9  af80af6b-c64b-445d-86ab-dea323eba6d5  12366 12417  (6628) + (CT)n       Simple_repeat      1     51    (0) 101  
+   28    7.0  0.0  4.3  af80af6b-c64b-445d-86ab-dea323eba6d5  12925 12973  (6072) + (TGT)n      Simple_repeat      1     47    (0) 102  
+   14    8.5  0.0  3.9  af80af6b-c64b-445d-86ab-dea323eba6d5  12979 13005  (6040) + (CTT)n      Simple_repeat      1     26    (0) 103  
+   18   21.7  0.0  3.9  af80af6b-c64b-445d-86ab-dea323eba6d5  13086 13138  (5907) + (TGCCTTT)n  Simple_repeat      1     51    (0) 104  
+   12   24.8  0.0  2.5  af80af6b-c64b-445d-86ab-dea323eba6d5  13106 13146  (5899) + (TTTGTTA)n  Simple_repeat      1     40    (0) 105 *
+   19   28.2  3.1  0.0  af80af6b-c64b-445d-86ab-dea323eba6d5  13379 13442  (5603) + (CAG)n      Simple_repeat      1     66    (0) 106  
+   16    7.5  3.6  0.0  af80af6b-c64b-445d-86ab-dea323eba6d5  13456 13483  (5562) + (AAC)n      Simple_repeat      1     29    (0) 107  
+   13   31.3  0.0  3.8  af80af6b-c64b-445d-86ab-dea323eba6d5  13537 13591  (5454) + (ACAT)n     Simple_repeat      1     53    (0) 108  
+   12   16.9  0.0  0.0  af80af6b-c64b-445d-86ab-dea323eba6d5  13569 13595  (5450) + (ATAT)n     Simple_repeat      1     27    (0) 109 *
+   13   15.4  6.7  2.1  af80af6b-c64b-445d-86ab-dea323eba6d5  13742 13786  (5259) + (AAAGAAGC)n Simple_repeat      1     47    (0) 110  
+   15    9.1  0.0  0.0  af80af6b-c64b-445d-86ab-dea323eba6d5  14317 14340  (4705) + (CGT)n      Simple_repeat      1     24    (0) 111  
+   49   25.1  0.8  0.8  af80af6b-c64b-445d-86ab-dea323eba6d5  14693 14814  (4231) + (TA)n       Simple_repeat      1    122    (0) 112  
+   26   21.4  0.0  5.8  af80af6b-c64b-445d-86ab-dea323eba6d5  14793 14865  (4180) + (TG)n       Simple_repeat      1     69    (0) 113 *
+   44    2.4  0.0  0.0  af80af6b-c64b-445d-86ab-dea323eba6d5  14973 15014  (4031) + (TA)n       Simple_repeat      1     42    (0) 114  
+   16   13.1  0.0  0.0  af80af6b-c64b-445d-86ab-dea323eba6d5  15192 15216  (3829) + (TG)n       Simple_repeat      1     25    (0) 115  
+   26    0.0  0.0  0.0  af80af6b-c64b-445d-86ab-dea323eba6d5  15339 15363  (3682) + (CTG)n      Simple_repeat      1     25    (0) 116  
+   21    4.0  0.0  0.0  af80af6b-c64b-445d-86ab-dea323eba6d5  15417 15442  (3603) + (TG)n       Simple_repeat      1     26    (0) 117  
+   12   17.9  0.0  5.9  af80af6b-c64b-445d-86ab-dea323eba6d5  15464 15499  (3546) + (TTCT)n     Simple_repeat      1     34    (0) 118  
+   23    7.3  5.8  9.0  af80af6b-c64b-445d-86ab-dea323eba6d5  15915 15983  (3062) + (ATA)n      Simple_repeat      1     67    (0) 119  
+   16   21.7  0.0  0.0  af80af6b-c64b-445d-86ab-dea323eba6d5  16245 16276  (2769) + (T)n        Simple_repeat      1     32    (0) 120  
+   18   31.7  3.2  0.0  af80af6b-c64b-445d-86ab-dea323eba6d5  16301 16362  (2683) + (AT)n       Simple_repeat      1     64    (0) 121  
+   24   11.3  6.0  1.9  af80af6b-c64b-445d-86ab-dea323eba6d5  16808 16857  (2188) + (TA)n       Simple_repeat      1     52    (0) 122  
+   13    7.4  6.5  3.1  af80af6b-c64b-445d-86ab-dea323eba6d5  18154 18184   (861) + (CTCGA)n    Simple_repeat      1     32    (0) 123  
+   12   11.6  3.3  3.3  af80af6b-c64b-445d-86ab-dea323eba6d5  18356 18385   (660) + (TCCGC)n    Simple_repeat      1     30    (0) 124  
+   12   17.1  2.2  7.0  af80af6b-c64b-445d-86ab-dea323eba6d5  18541 18585   (460) + (GATTT)n    Simple_repeat      1     43    (0) 125  
+   13    5.2  0.0  0.0  af80af6b-c64b-445d-86ab-dea323eba6d5  18736 18755   (290) + (CTG)n      Simple_repeat      1     20    (0) 126  
+   13   23.4  2.0  4.1  af80af6b-c64b-445d-86ab-dea323eba6d5  18783 18832   (213) + (GCATAT)n   Simple_repeat      1     49    (0) 127 *
+   23   13.2  0.0  6.7  af80af6b-c64b-445d-86ab-dea323eba6d5  18791 18838   (207) + (AT)n       Simple_repeat      1     45    (0) 128  
+   17   22.6  0.0  0.0  af80af6b-c64b-445d-86ab-dea323eba6d5  18976 19016    (29) + (TTG)n      Simple_repeat      1     41    (0) 129  
+ 7892    3.4  3.0  2.0  b4a8c5d4-6e6e-41ba-ac00-5146134a8c15     37  1115  (2893) + Paris       Unspecified      639   1727    (3) 130  
+   18   16.8  2.9  0.0  b4a8c5d4-6e6e-41ba-ac00-5146134a8c15   1192  1226  (2782) + (GT)n       Simple_repeat      1     36    (0) 131  
+   12   10.9  6.7  6.7  b4a8c5d4-6e6e-41ba-ac00-5146134a8c15   3540  3584   (424) + (AATGAA)n   Simple_repeat      1     45    (0) 132  
