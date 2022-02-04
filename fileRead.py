@@ -1,30 +1,8 @@
-import os, sys
 import fileinput
-
-input_dir = '/home/e378m007/fullWorkflow'
-
-os.chdir(input_dir)
-
-# filter repeatmasker output
-
-awk_filter_nano = "awk '{if (($7-$6) >= 250) print $0;}' dys_60000.fa.out | awk '{if($2<=20.0) print $0;}' > dys_60000_filter.fa.out"
-awk_filter_160 = "awk '{if (($7-$6) >= 250) print $0;}' strain160all.fasta.out | awk '{if($2<=20.0) print $0;}' > strain160all_filter.fa.out"
-awk_filter_9 = "awk '{if (($7-$6) >= 250) print $0;}' strain9all.fasta.out | awk '{if($2<=20.0) print $0;}' > strain9all_filter.fa.out"
-
-os.system(awk_filter_nano)
-os.system(awk_filter_160)
-os.system(awk_filter_9)
-
-#pull the list of TEs
-
-pull_TEs = "grep -e '>' Erwin2015Library.txt |awk 'sub(/^>/, "")' > TE_list.txt"
-
-os.system(pull_TEs)
+import os, sys
 
 for line in fileinput.input("TE_list.txt"):
     TE = line
-
-    # Find the reads containing the TE
 
     awk_find_nano = '''awk '{if (($10) == '''+TE+''') print $0;}' dys_60000_filter.fa.out | awk '{Nanopore[$5];} END{for (var in Nanopore) print var;} ' > nanopore_reads_'''+TE+'''.txt'''
     os.system(awk_find_nano)
