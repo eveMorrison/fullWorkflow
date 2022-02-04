@@ -1,6 +1,6 @@
 import os, sys
 
-input_dir = '/Users/evamorrison/Desktop/Eva/fullWorkflow'
+input_dir = '/home/e378m007/fullWorkflow'
 
 os.chdir(input_dir)
 
@@ -14,13 +14,17 @@ os.system(awk_filter_nano)
 os.system(awk_filter_160)
 os.system(awk_filter_9)
 
+#pull the list of TEs
+
+pull_TEs = "grep -e '>' Erwin2015Library.txt |awk 'sub(/^>/, "")' > TE_list.txt"
+
+os.system(pull_TEs)
+
 # Find the reads containing the TE
 
 awk_find_nano = '''awk '{if (($10) == "Paris") print $0;}' dys_60000_filter.fa.out | awk '{Nanopore[$5];} END{for (var in Nanopore) print var;} ' > nanopore_reads_Paris.txt'''
-remove = "rm dys_60000_filter.fa.out"
 
 os.system(awk_find_nano)
-os.system(remove)
 
 # isolate the reads containing the TE
 
@@ -35,6 +39,7 @@ os.system(remove)
 awk_find_TE_160 = '''awk '{if (($10) == "Paris") print $0;}' strain160all_filter.fa.out > strain160all.paris.fa.out'''
 awk_find_TE_9 = '''awk '{if (($10) == "Paris") print $0;}' strain9all_filter.fa.out > strain9all.paris.fa.out'''
 
+
 os.system(awk_find_TE_160)
 os.system(awk_find_TE_9)
 
@@ -43,32 +48,53 @@ os.system(awk_find_TE_9)
 bwa_index_160 = "bwa index strain160all.fasta.masked"
 bwa_index_9 = "bwa index strain9all.fasta.masked"
 
+os.system(bwa_index_160)
+os.system(bwa_index_9)
+
 # Normalize Nanaopore Reads to Assemblies
 
 bwa_mem_160 = "bwa mem strain160all.fasta.masked dys_60000_paris.fa.masked > dys_60000Normalized160.sam"
 bwa_mem_9 = "bwa mem strain9all.fasta.masked dys_60000_paris.fa.masked > dys_60000Normalized9.sam"
+
+os.system(bwa_mem_160)
+os.system(bwa_mem_9)
 
 # filter sam files
 
 samtools_view_160 = "samtools view -q 50 -F 0x800 -b dys_60000_Normalized160.sam > dys_60000_Filter160.bam"
 samtools_view_9 = "samtools view -q 50 -F 0x800 -b dys_60000_Normalized9.sam > dys_60000_Filter9.bam"
 
+os.system(samtools_view_160)
+os.system(samtools_view_9)
+
 # sort sam files for bedfile comparison
 
 samtools_sort_160 = "samtools sort dys_60000_Filter160.bam -o dys_60000_Sorted160.bam"
 samtools_sort_9 = "samtools sort dys_60000_Filter9.bam -o dys_60000_Sorted9.bam"
+
+os.system(samtools_sort_160)
+os.system(samtools_sort_9)
 
 # convert bam file to a bed file
 
 bedtools_bamtobed_160 = "bedtools bamtobed -i dys_60000_Sorted160.bam > dys_60000_160.bed"
 bedtools_bamtobed_9 = "bedtools bamtobed -i dys_60000_Sorted9.bam > dys_60000_9.bed"
 
+os.system(bedtools_bamtobed_160)
+os.system(bedtools_bamtobed_9)
+
 # convert assmebly files to bed files
 
 awk_tobed_160 = '''awk '{OFS="\t"; if($6>1000) print $5,$6-1000, $7+1000,$10; else print $5,1,$7+1000,$10;}' strain160all.paris.fa.out > strain160all.paris.extended.bed'''
 awk_tobed_9 = '''awk '{OFS="\t"; if($6>1000) print $5,$6-1000, $7+1000,$10; else print $5,1,$7+1000,$10;}' strain9all.paris.fa.out > strain9all.paris.extended.bed'''
 
+os.system(awk_tobed_160)
+os.system(awk_tobed_9)
+
 # find inverse intersections between assembly and nanopore
 
 bedtools_intersect_160 = "bedtools intersect -a dys_60000_160.bed -b strain160all.paris.extended.bed -v > insertParis160.bed"
 bedtools_intersect_9 = "bedtools intersect -a dys_60000_9.bed -b strain9all.paris.extended.bed -v > insertParis9.bed"
+
+os.system(bedtools_intersect_160)
+os.system(bedtools_intersect_9)
