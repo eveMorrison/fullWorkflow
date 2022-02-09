@@ -17,7 +17,7 @@ os.system(awk_filter_9)
 
 #pull the list of TEs
 
-pull_TEs = "grep -e '>' Erwin2015Library.txt |awk 'sub(/^>/, "")' > TE_list.txt"
+pull_TEs = "grep -e '>' miniTELibrary.fasta |awk 'sub(/^>/, "")' > TE_list.txt"
 
 os.system(pull_TEs)
 
